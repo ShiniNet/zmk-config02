@@ -33,12 +33,13 @@
             = <&xiao_d 1 GPIO_ACTIVE_HIGH>
             ;
     };
-
+    /*
     iqs9151_listener: iqs9151_listener {
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&iqs9151>;
     };
+    */
 };
 
 &pinctrl {
@@ -76,7 +77,7 @@
         sensitivity = "4x";
         //sleep; 
         no-taps;
-    }; */
+    }; 
 
     iqs9151: iqs9151@56 {
         compatible = "azoteq,iqs9151";
@@ -84,5 +85,5 @@
         status = "okay";
         irq-gpios = <&xiao_d 2 (GPIO_ACTIVE_HIGH)>;
 
-    };
+    };*/
 };
