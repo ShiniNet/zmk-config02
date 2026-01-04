@@ -9,5 +9,8 @@ manifest:
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
+    - name: zmk-driver-iqs9151
+      remote: ShiniNet
+      revision: main
   self:
     path: config
