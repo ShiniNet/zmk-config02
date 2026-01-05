@@ -82,7 +82,7 @@
         compatible = "azoteq,iqs9151";
         reg = <0x56>;
         status = "okay";
-        irq-gpios = <&xiao_d 2 (GPIO_ACTIVE_HIGH)>;
+        irq-gpios = <&xiao_d 6 (GPIO_ACTIVE_HIGH)>;
 
     };
 };
